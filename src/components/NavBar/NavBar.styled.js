@@ -70,8 +70,6 @@ export const NavLogo = styled(Link)`
   @media (max-width: 767px) {
     width: 100px;
     height: 100px;
-    border-left: 2px solid white;
-    border-right: 2px solid white;
   }
 `;
 

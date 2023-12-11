@@ -6,7 +6,6 @@ import hero from '../images/Hero.jpg';
 export const ContainerHome = styled.div`
 width: 100%;
 height: 100%;
-z-index:99999999;
 
 background-image: url(${hero});
 background-size: cover; 
@@ -36,17 +35,11 @@ export const ButtonCar = styled(Link)`
   
 
   @media (max-width: 767px) {
-    width: 100px;
-    height: auto;
-    top: 200px;
-    right: 10%;
+   display: none;
   }
 
   @media (max-width: 365px) {
-    width: 60px;
-    height: auto;
-    top: 150px;
-    right: 10%;
+   display: none;
   }
 `;
 
@@ -59,8 +52,7 @@ background-size: cover;
   background-position: center;
 
   @media (max-width: 767px) {
-    top: 70px;
-    left: 40px;
+   width: 100%;
   }
 `; 
 
