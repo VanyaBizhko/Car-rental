@@ -15,7 +15,7 @@ export const Home = () => {
   return (
     <ContainerHome>
       <HeroBox>
-        <HeroText>Cars_UKR </HeroText>
+        <HeroText>Cars_UKR</HeroText>
         <HeroTitle>ПРОКАТ АВТОМОБІЛІВ</HeroTitle>
         <HeroText></HeroText>
       <ButtonCar to={'/catalog'}>
